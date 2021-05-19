@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "aBlocker",
+    "version": "1.0.0",
+    "description": "aBlocker-An Ad Blocker Extension",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["BlockAds.js"]
+    },
+    "icons": {
+        "16": "logo/logo_16.png",
+        "48": "logo/logo_48.png",
+        "128": "logo/logo_128.png"
+    },
+    "browser_action":{
+        "default_popup": "aBlocker.html",
+        "default_title": "aBlocker Ad Blocker"
+    }
+}
