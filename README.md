@@ -1,4 +1,4 @@
-# aBlocker Ad Blocker Chrome Extension
+# aBlocker - Ad Blocker Chrome Extension
 
 ## How to Use the extension ?
 1. Clone the repository.
